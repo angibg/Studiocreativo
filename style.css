@@ -266,4 +266,17 @@ input {
     color: var(--text-dim);
     font-size: 0.95rem;
 }
+.hero {
+    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0; /* Quitamos el espacio que dejaba el menú */
+}
+
+/* Ocultar cualquier rastro del menú en el CSS si quedó alguna clase */
+nav, .menu, .navbar {
+    display: none !important;
+}
 
