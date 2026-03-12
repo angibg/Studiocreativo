@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+o<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -254,3 +254,11 @@
     </svg>
     <span>Chatea con nosotros</span>
 </a>
+# 1. Prepara todos los archivos modificados (index.html, style.css)
+git add .
+
+# 2. Etiqueta el cambio con un mensaje descriptivo
+git commit -m "Actualización: Diseño minimalista sin menú de navegación"
+
+# 3. Empuja los cambios a tu repositorio de GitHub
+git push origin main
