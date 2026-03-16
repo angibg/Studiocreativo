@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre | Diseñador Gráfico & Estratega Visual</title>
+    <meta name="description" content="Especialista en branding y UI/UX para startups digitales. Transformo ideas en identidades visuales memorables.">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0D0D0D] text-[#F5F5F5] font-['Syne'] antialiased">
+
+    <nav class="fixed top-0 w-full z-50 flex justify-between items-center px-8 py-6 backdrop-blur-md bg-black/10">
+        <div class="text-2xl font-bold tracking-tighter">ESTUDIO.LOGOS</div>
+        <ul class="hidden md:flex gap-8 text-sm uppercase tracking-widest opacity-80">
+            <li><a href="#proyectos" class="hover:opacity-100 transition">Proyectos</a></li>
+            <li><a href="#proceso" class="hover:opacity-100 transition">Proceso</a></li>
+            <li><a href="#contacto" class="hover:opacity-100 transition">Contacto</a></li>
+        </ul>
+        <button class="bg-[#2E5BFF] px-5 py-2 text-sm font-bold rounded-full">Hablemos</button>
+    </nav>
+
+    <main>
+        <section class="h-screen flex flex-col justify-center px-8 lg:px-24">
+            <h1 class="text-6xl md:text-9xl font-extrabold leading-none tracking-tighter">
+                DISEÑO QUE <br> <span class="text-[#2E5BFF]">ESTRATEGIZA.</span>
+            </h1>
+            <p class="mt-8 text-lg md:text-xl max-w-xl opacity-60 leading-relaxed">
+                Ayudo a marcas emergentes a definir su voz visual a través de sistemas de diseño coherentes y minimalistas.
+            </p>
+            <div class="mt-12 animate-bounce opacity-40">
+                <span>↓ Scrollea para ver el trabajo</span>
+            </div>
+        </section>
+
+        <section id="proyectos" class="py-24 px-8">
+            <h2 class="text-sm uppercase tracking-[0.3em] mb-12 opacity-50 italic">Proyectos Seleccionados</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <article class="group cursor-pointer">
+                    <div class="overflow-hidden bg-[#1A1A1A] aspect-[4/5] relative">
+                        <img src="https://via.placeholder.com/800x1000" alt="Caso de Estudio 1" class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition duration-700 scale-105 group-hover:scale-100">
+                    </div>
+                    <div class="mt-6 flex justify-between items-end">
+                        <div>
+                            <h3 class="text-2xl font-bold">Lumina Branding</h3>
+                            <p class="opacity-50 text-sm">Identidad Visual / 2024</p>
+                        </div>
+                        <span class="text-[#2E5BFF] font-bold">Ver más →</span>
+                    </div>
+                </article>
+
+                <article class="group cursor-pointer md:mt-24">
+                    <div class="overflow-hidden bg-[#1A1A1A] aspect-[4/5] relative">
+                        <img src="https://via.placeholder.com/800x1000" alt="Caso de Estudio 2" class="object-cover w-full h-full grayscale group-hover:grayscale-0 transition duration-700 scale-105 group-hover:scale-100">
+                    </div>
+                    <div class="mt-6">
+                        <h3 class="text-2xl font-bold">Aura App UI</h3>
+                        <p class="opacity-50 text-sm">Diseño de Interfaz / 2024</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="py-24 px-8 border-t border-white/10 text-center">
+        <h2 class="text-4xl md:text-6xl font-bold mb-8">¿Tienes una idea audaz?</h2>
+        <a href="mailto:hola@tuweb.com" class="text-[#2E5BFF] text-2xl md:text-3xl underline font-medium">hola@tuweb.com</a>
+        <div class="mt-20 flex justify-center gap-8 opacity-40 text-sm uppercase tracking-widest">
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Behance</a>
+        </div>
+    </footer>
+
+</body>
+</html>
